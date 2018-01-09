@@ -409,6 +409,7 @@ $dictionary['AOS_Products_Quotes'] = array(
             'duplicate_merge_dom_value' => 0,
             'audited' => 0,
             'reportable' => 0,
+            'options' => 'parent_type_workflow',
             'len' => 100,
             'dbType' => 'varchar',
             'studio' => 'hidden',
