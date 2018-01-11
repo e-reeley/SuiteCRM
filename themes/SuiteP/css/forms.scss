@@ -602,7 +602,6 @@ fieldset[disabled] .btn-primary.active {
 }
 
 [data-workflow-action-line] select[id$="][0]"] {
-  width: 45%;
   margin-bottom: 4px;
 }
 
@@ -734,6 +733,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 [data-workflow-action] .lines select {
+  width: auto;
   margin-top: 8px;
 }
 
