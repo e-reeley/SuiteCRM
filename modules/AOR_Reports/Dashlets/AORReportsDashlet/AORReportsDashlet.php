@@ -38,6 +38,9 @@ class AORReportsDashlet extends Dashlet
                 );
             }
         }
+
+        $this->seedBean = new AOR_Report();
+        $this->seedBean->module_name = 'Reports';
         if (!empty($def['aor_report_id'])) {
             $this->report = BeanFactory::getBean('AOR_Reports', $def['aor_report_id']);
             $this->report->user_parameters = $this->params;
